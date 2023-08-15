@@ -1,0 +1,50 @@
+.notification_section {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: flex-start;
+}
+
+.notification_container {
+     margin: 20px 0;
+     width: 650px;
+     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 4px 0px;
+}
+
+.notification{
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+}
+
+.notification :hover{
+    background-color: rgb(230, 230, 255);
+    transition: 0.4s;
+}
+
+.notification_raw {
+     height: 50px;
+     display: flex;
+     align-items: flex-start;
+     gap: 20px;
+     padding: 10px 15px;
+}
+
+
+.notification_raw img{
+     width: 45px;
+     height: 45px;
+     border-radius: 50%;
+}
+
+.noti_content{
+     display: flex;
+     flex-direction: column;
+     height: 100%;
+     justify-content: space-around;
+}
+
+.noti_name{
+     display: flex;
+     align-items: center;
+}

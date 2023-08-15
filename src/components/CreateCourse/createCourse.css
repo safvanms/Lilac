@@ -1,0 +1,130 @@
+.creating_section {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: flex-start;
+}
+
+.create_container {
+     margin: 20px 0 20px 50px;
+     width: 70%;
+     /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 4px 0px; */
+}
+
+.create_header{
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+     align-items: center;
+     height: 30px;
+     border-bottom: 1px solid #dad7d7aa;
+     padding-bottom: 10px;
+}
+
+.create_header div{
+     display: flex;
+     gap: 10px;
+     align-items: center;
+}
+
+.page_count{
+     width: 60px;
+     height: 20px;
+     border-radius: 15px;
+     background-color: #dad7d7aa;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: grey;
+     font-size: 11px;
+}
+
+.save_draft{
+     display: flex;
+     background-color: rgb(4, 4, 118);
+     color: #ffff;
+     border-radius: 3px;
+     padding: 5px 10px;
+     cursor: pointer;
+}
+
+.course_close_button{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: #dad7d7aa;
+     height: 25px;
+     width: 25px;
+     border-radius: 50%;
+     cursor: pointer;
+}
+
+
+.pages_icon_section{
+     margin-top: 30px;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+}
+
+.icons_container{
+     background-color: #ffff;
+     width: 70%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+.icon_cover{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 60px;
+}
+
+.icon_name{
+     margin:5px 0;
+     font-size: 9px;
+     color: grey;
+     white-space: nowrap;
+}
+
+.icon_bg{
+     height: 60px;
+     width: 60px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: #dad7d7aa;
+     border-radius: 50%;
+     font-size: 25px;
+}
+
+.green_bg{
+     background-color: rgb(205, 255, 205);
+     color: green;
+}
+
+.blue_bg{
+     background-color: rgb(215, 211, 249);
+     color: darkblue;
+}
+
+.grey_bg{
+     color: grey;
+}
+
+.green_name{
+     color: green;
+}
+
+.blue_name{
+     color: darkblue;
+}
+
+.line{
+     margin-bottom: 25px;
+     width: 120px;
+     height: 1px;
+     border-bottom:1px solid #dad7d7aa;
+}

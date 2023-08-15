@@ -1,0 +1,139 @@
+.course_section {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: flex-start;
+}
+
+.course_container {
+     margin: 20px 0 20px 50px;
+     width: 70%;
+     height: 500px;
+}
+
+.course_header {
+     display: flex;
+     justify-content: space-between;
+     padding-bottom: 10px;
+     border-bottom: 1px solid #aaaaaa;
+     margin-bottom: 10px;
+}
+
+.course_header div {
+     cursor: pointer;
+     padding: 5px 10px;
+     background-color: darkblue;
+     border-radius: 5px;
+     color: #fff;
+}
+
+.courses_card_container {
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+     gap: 15px;
+     justify-content: center;
+     background-color: #f8f8f8;
+     padding: 20px 0;
+}
+
+.course_card {
+     width: 250px;
+     height: 240px;
+     border-radius: 5px;
+     background-color: #fff;
+     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 4px 0px;
+}
+
+.course_card:hover{
+     transform: scale(1.05);
+     transition: 1s;
+     border-radius: 10px; 
+}
+
+.card_header {
+     padding: 15px;
+     display: flex;
+     align-items: center;
+     gap: 15px;
+     height: 40px;
+     border-bottom: 1px solid #e9e9e6;
+}
+
+.card_header img {
+     width: 45px;
+     height: 45px;
+     border-radius: 50%;
+}
+
+.card_header div {
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+}
+
+.card_items {
+     padding: 15px;
+     display: flex;
+     flex-direction: column;
+     gap: 15px;
+     font-weight: bold;
+     color: grey;
+}
+
+.card_items div {
+     display: flex;
+     align-items: center;
+     gap: 10px;
+}
+
+.edit_course_option{
+     margin: 0 auto;
+     width: 30px !important;
+     height: 30px !important;
+     border-radius: 50%;
+     background-color: rgb(208, 234, 243);
+     display: flex;
+     justify-content: center !important;
+     align-items: center !important;
+}
+
+.new_course_option{
+     margin: 0 auto;
+     width: 40px !important;
+     height: 25px !important;
+     border-radius: 15px;
+     background-color: rgb(209, 243, 208);
+     display: flex;
+     justify-content: center !important;
+     align-items: center !important;
+     font-size: 11px;
+     color: green;
+     font-weight: bold;
+}
+
+.card_footer{
+     padding: 15px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+.card_left_footer{
+     padding: 5px 10px;
+     border-radius: 15px;
+     background-color: rgb(208, 218, 243);
+     display: flex;
+     justify-content: center ;
+     align-items: center ;
+     font-size: 11px;
+     color: rgb(36, 133, 213);
+     font-weight: bold;
+}
+
+.card_right_footer img{
+     width: 35px;
+     height: 35px;
+     border-radius: 50%;
+}

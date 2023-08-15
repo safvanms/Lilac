@@ -1,0 +1,45 @@
+[
+  {
+    "id": "930",
+    "name": "Edumpus",
+    "userImg": "https://picsum.photos/250/300",
+    "time": "now",
+    "notification": " commented on your post"
+  },
+  {
+     "id": "937",
+     "name": "Haris WebDesign",
+     "userImg": "https://picsum.photos/250/350",
+     "time": "3 min ago",
+     "notification": " applied new syllabus course as sample etc."
+   },
+   {
+     "id": "944",
+     "name": "Hitler",
+     "userImg": "https://picsum.photos/200/300",
+     "time": "1 hour ago",
+     "notification": " Applied science and technologies degrees"
+   },
+   {
+     "id": "960",
+     "name": "Kane williamson",
+     "userImg": "https://picsum.photos/200/200",
+     "time": "2 hours ago",
+     "notification": "replied your Comment"
+   },
+   {
+     "id": "970",
+     "name": "Mraise erasmus",
+     "userImg": "https://picsum.photos/200/350",
+     "time": "1 week ago",
+     "notification": "applied for science course"
+   },
+   {
+     "id": "977",
+     "name": "Richard",
+     "userImg": "https://picsum.photos/200/340",
+     "time": "1 month ago",
+     "notification": " commented your post"
+   }
+       
+]
